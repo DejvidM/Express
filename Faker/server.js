@@ -6,7 +6,7 @@ const { faker } = require('@faker-js/faker');
 
 
 const userDetails = () => {
-    const user = {
+    const user = { 
         password : faker.internet.password(),
         email : faker.internet.email(),
         phoneNumber : faker.phone.number(),
